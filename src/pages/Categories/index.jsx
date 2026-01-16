@@ -26,7 +26,7 @@ export default function Categories() {
             <span className="text-sm font-semibold text-slate-900">
               {category}
             </span>
-            <span className="text-xs text-slate-400">View -></span>
+            <span className="text-xs text-slate-400">View -{'>'}</span>
           </Card>
         ))}
       </div>
