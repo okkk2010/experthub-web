@@ -11,6 +11,7 @@ import AppointmentCreate from "../pages/Appointment/AppointmentCreate";
 import MyDashboard from "../pages/My/MyDashboard";
 import ExpertDashboard from "../pages/My/ExpertDashboard";
 import Login from "../pages/Auth/Login";
+import Signup from "../pages/Auth/Signup";
 import OAuthCallback from "../pages/Auth/OAuthCallback";
 import NotFound from "../pages/NotFound";
 
@@ -29,6 +30,7 @@ export const router = createBrowserRouter([
       { path: "/my", element: <MyDashboard /> },
       { path: "/expert", element: <ExpertDashboard /> },
       { path: "/auth/login", element: <Login /> },
+      { path: "/auth/signup", element: <Signup /> },
       { path: "/auth/callback", element: <OAuthCallback /> },
       { path: "*", element: <NotFound /> },
     ],

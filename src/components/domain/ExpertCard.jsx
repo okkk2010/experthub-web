@@ -14,9 +14,7 @@ export function ExpertCard({ name, headline, tags }) {
         </div>
       </div>
       <div className="flex flex-wrap gap-2">
-        {tags.map((tag) => (
-          <Tag key={tag}>{tag}</Tag>
-        ))}
+        <Tag key={tags}>{tags}</Tag>
       </div>
       <Button size="sm">Book appointment</Button>
     </Card>

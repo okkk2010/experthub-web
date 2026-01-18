@@ -36,8 +36,8 @@ export function Header() {
           <ButtonLink to="/auth/login" variant="ghost" size="sm">
             Sign in
           </ButtonLink>
-          <ButtonLink to="/ask" size="sm">
-            Ask a question
+          <ButtonLink to="/auth/signup" size="sm">
+            Sign up
           </ButtonLink>
         </div>
       </div>

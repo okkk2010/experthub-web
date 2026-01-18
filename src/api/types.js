@@ -17,8 +17,9 @@
  * @typedef {Object} Expert
  * @property {number} id
  * @property {string} name
- * @property {string} headline
- * @property {string[]} tags
+ * @property {string} email
+ * @property {string} expertise
+ * @property {string} phone_number
  */
 
 /**
